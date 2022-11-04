@@ -45,6 +45,9 @@ public class MaquinaExpendedoraSimple {
     public void reducirPrecioBillete(int reducirPrecioBillete){
         precioBillete -= reducirPrecioBillete;
     }
+    public void vaciarDepositoDinero(){
+        totalDineroAcumulado=0;
+    }
     /**
      * Simula la introduccion de dinero por parte del cliente actual
      */
